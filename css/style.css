@@ -1,0 +1,182 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+/* Main styling* */
+html,
+body {
+ font-family: 'Segoe UI',Tahoma , Verdana, Geneva, Tahoma, sans-serif; 
+ line-height: 1.7em;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p{
+  margin-bottom: 20px;
+}
+
+
+/* nav */
+#navbar {
+  background-color: tomato;
+  color: #fff; 
+  overflow: auto;
+  border: none;
+  max-height: 65px;
+}
+
+#navbar a {
+  color: white;
+  max-height: 65px;
+}
+
+#navbar .logo{
+  float: left;
+  padding: 20px;
+}
+
+#navbar ul{
+  float: right;
+  list-style: none;
+}
+
+#navbar ul li {
+  float:left;
+}
+
+
+#navbar ul li a{
+ padding: 20px;
+ display:block;
+  text-align: center;
+}
+
+#navbar ul li a:hover{
+color: orange;
+border: 1px solid darkorange; 
+/* animation-delay: 2s; */
+}
+
+/* showcase */
+#showcase {
+background: url('../cady.jpg') no-repeat center center/cover;
+height: 600px;
+}
+#showcase .showcase-content {
+color: tomato;
+padding-top: 40px;
+text-align: center;
+}
+
+#showcase .showcase-content h1{
+  line-height: 1.5rem;
+  font-size: 28px;
+  margin: 10px;
+  padding:0px;
+}
+
+#showcase .showcase-content p{
+  line-height: 1.5rem;
+  font-size: 15px;
+}
+
+.btn{
+display: inline-block;
+background-color:tomato;
+font-size:20px;
+padding: 20px;
+margin-top: 18px;
+color: white;
+border-radius: 10px;
+}
+
+.btn:hover {
+background-color: orange;
+}
+
+/* home info */
+
+.info-img {
+  min-height: 400px;
+  display: flex;
+  padding: 10px;
+  opacity: 0.5;
+}
+
+#home-info .info-img-1 {
+  margin: 5px;
+  min-height: 100%;
+  width: 100%;
+  background: url('../unnamed.jpg') no-repeat center/cover;
+}
+
+#home-info .info-img-2 {
+  margin: 5px;
+  min-height: 100%;
+  width: 100%;
+  background: url('../45003645-colorful-decoration-of-kids-birthday-party-table-with-popcorn-and-sweets.jpg') no-repeat center/cover;
+}
+
+#home-info .info-content{
+  margin: 10px;
+  padding: 20px 10px;
+  border: 3px solid #f29886;
+  border-radius: 4px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center; 
+  max-width: 600px;
+  max-height: 400px;
+}
+
+#home-info .info-content p h1 {font-size: 2rem;}
+
+/* features */
+
+.box {
+float: left;
+width: 33.3%;
+padding: 50px;
+text-align: center;
+margin-top: 20px;
+}
+
+.box 1{
+  margin-bottom:10px;}
+
+.bg-primary {
+  background: rgb(255, 251, 191);
+}
+
+.bg-light {background: #ffbbbb}
+
+.clr{clear: both;}
+
+/*footer*/
+
+#main-footer{
+  text-align: center;
+  padding: 40px;
+  background: orange;
+}
+
+.fa-candy-cane{color: rgb(255, 255, 255)}
+
+.fa-leaf {color:rgb(0, 247, 255)}
+
+.fa-cookie-bite{color:rgb(122, 211, 144)}
+
+
+
+
